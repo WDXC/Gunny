@@ -19,7 +19,7 @@ public:
   int getPositionY() const;
   const SDL_Rect &getRect() const;
   void setFlip(SDL_RendererFlip flip);
-  virtual void Update(const unsigned int delta);
+  virtual void update(const unsigned int delta);
   void draw(const SDL_Rect &camera) const;
 
 protected:

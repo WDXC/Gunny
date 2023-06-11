@@ -20,7 +20,7 @@ public:
   void draw() const;
 
 private:
-  std::unordered_map<std::string, std::shared_ptr<Scene>> scene;
+  std::unordered_map<std::string, std::shared_ptr<Scene>> scenes;
   std::queue<std::shared_ptr<Scene>> removedScenes;
   std::shared_ptr<Scene> currentScene = nullptr;
 };
