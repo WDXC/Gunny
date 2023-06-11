@@ -7,7 +7,7 @@
 int main(int /*argc*/, char** /*argv[]*/)
 {
     // init game
-    Gunny::Game game(std::string("bomberman"), 800, 600);
+    Gunny::Game game(std::string("Gunny"), 800, 600);
     // run game loop
     game.run();
 
