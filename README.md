@@ -16,3 +16,10 @@ make
 cp -r ../assets .
 ./Gunny
 ```
+
+# 代码结构
+![structure.png](./assets/structure.png)
+
+# 运行截图
+![Gunny_run.png](./assets/Gunny_run.png)
+![Gunny_start.png](./assets/Gunny_start.png)
